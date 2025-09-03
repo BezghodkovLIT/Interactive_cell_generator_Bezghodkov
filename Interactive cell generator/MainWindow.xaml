@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interactive_cell_generator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Interactive cell generator" Height="450" Width="800">
     <Grid>
+        <Button Content="Відкрити файл" Command="{Binding OpenFileCommand}" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
